@@ -1,0 +1,8 @@
+Proiectul foloseste Python 3.10 si urmatoarele biblioteci externe:
+    -scikit-learn: "Creierul" proiectului. O folosim pentru algoritmul AI (MLPClassifier) si pentru antrenarea retelei.
+    -opencv-python (cv2): O folosim pentru a citi pozele, a le face alb-negru si a le redimensiona la 64x64 pixeli.
+    -numpy: O folosim pentru calcule matematice, transformand pozele in tablou de numere (vectori).
+    -joblib: O folosim ca sa salvam modelul antrenat in fisierul .pkl si sa il incarcam rapid cand facem predictii, fara sa re-antrenam de la zero.
+    -streamlit: O folosim pentru Interfata Grafica (GUI). Ea ne genereaza site-ul web local unde facem Drag & Drop la poze.
+    -Pillow (PIL): O folosim in interfata grafica pentru a procesa imaginile incarcate de utilizator.
+    -requests: O folosim in scriptul bgrmv.py pentru a trimite pozele la API-ul remove.bg ca sa le scoatem fundalul.
